@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-const url = 'mongodb+srv://paulnilay4:HymEaGAXhNvPeXx1@cluster0.yiocune.mongodb.net/testmongodb?retryWrites=true&w=majority&appName=Cluster0'
+const url = 'YOUR_URL'
 mongoose.connect(url)
 
 const db = mongoose.connection
